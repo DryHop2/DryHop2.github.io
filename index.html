@@ -35,6 +35,7 @@
 							<ul class="links">
 								<li><a href="#banner">Home</a></li>
                                 <li><a href="#one">About</a></li>
+								<li><a href="#stack">Stack</a></li>
                                 <li><a href="#two">Projects</a></li>
                                 <li><a href="#three">Blog</a></li>
                                 <li><a href="#footer">Contact</a></li>
@@ -67,50 +68,90 @@
 									I believe the best security solutions scale, adapt, and clarify. Whether I'm digging into packet captures, building analysis pipelines, or reverse-engineering telemetry flows, I aim to make complex systems more observable and threats more visible.
 								</p>
 								<p>
-									Outside of work, I write fiction, brew beer, and read anything with a strong narrative thread—whether it's fantasy epics or cybersecurity research papers. I'm a systems thinker at heart, always drawn to patterns, stories, and the deeper structures behind how things work. That same curiosity drives how I build, learn, and solve problems. I live in Utah with my wife and my dog, who takes her role as Chief Morale Officer very seriously.
+									Outside of work, I write fiction, brew beer, and read anything with a strong narrative thread—whether it's fantasy epics or cybersecurity research papers. I'm a systems thinker at heart, always drawn to patterns, stories, and the deeper structures behind how things work. That same curiosity drives how I build, learn, and solve problems. I live in Utah with my beautiful wife and my dog, who takes her role as Chief Morale Officer very seriously.
 								</p>
 							</div>
 						</section>
 
-						<!-- Two -->
-							<section id="two" class="wrapper alt spotlight style2">
-								<div class="inner">
-									<div class="content">
-										<h2 class="major">Projects</h2>
-										<div class="project-block">
-											<p>This section highlights what I've built, what I'm building, and where 
-												I'm headed next. I'm especially interested in projects that combine automation 
-												with real-world detection challenges.</p>
+				<!-- Stack -->
+					<section id="tech" class="wrapper style1">
+					<div class="inner">
+						<h2 class="major">Core Tools & Technologies</h2>
+						<div class="tech-grid">
+						
+						<div class="tech-column">
+							<h3>Programming & Scripting</h3>
+							<ul>
+							<li title="Lightweight scripting, enrichment tooling, and automation across detection workflows.">Python</li>
+							<li title="Used for protocol analysis tooling and backend architecture exploration.">Go</li>
+							<li title="Support for large-scale telemetry analysis and detection logic tuning.">SQL</li>
+							<li title="Experimental models for behavioral detection, anomaly scoring, and feature enrichment.">Machine Learning</li>
+							</ul>
+						</div>
 
-											<p><strong>Now:</strong> Working on bot detection analysis tooling.<br>
-											<strong>Next:</strong> Exploring threat intel enrichment and attacker behavior mapping.</p>
-										</div>
-										<div class="project-block">
-											<h3>Chirpy</h3>
-											<p>A lightweight microblogging API built in Go, featuring secure user authentication with JWT and refresh tokens, modular route handling, and webhook integration. Designed to demonstrate clean backend architecture and stateful session control.</p>
-											<a href="https://github.com/DryHop2/chirpy" class="button">View on GitHub</a>
-										</div>
-										<div class="project-block">
-											<h3>Tubely</h3>
-											<p>A video storage and metadata processing backend built in Go. It handles large file uploads with multipart support, integrates with AWS S3 for cloud storage, and includes fast-start encoding logic for optimized playback. Designed for hands-on experience with file streaming, cloud APIs, and backend resource management.</p>
-											<a href="https://github.com/DryHop2/tubely" class="button">View on GitHub</a>
-										</div>
-										<div class="project-block">
-											<h3>Coming Soon!</h3>
-											<p>This is a temporary placeholder for upcoming projects I am migrating and publishing. These will include security tooling, detection logic, and analysis workflows.</p>
-											<a href="https://github.com/DryHop2/upcoming-projects" class="button">View on GitHub</a>
-										</div>
-									</div>
-								</div>
-							</section>
+						<div class="tech-column">
+							<h3>Infrastructure & Workflow</h3>
+							<ul>
+							<li title="Version control and collaborative workflows across security projects.">Git</li>
+							<li title="Used S3 and IAM to support cloud-hosted services and access control.">AWS (S3, IAM)</li>
+							<li title="Containerized development and reproducible testing environments.">Docker</li>
+							<li title="Detection, deflection, and analysis of automated threats.">Bot Management</li>
+							</ul>
+						</div>
 
-						<!-- Three -->
-							<section id="three" class="wrapper alt style1">
-								<div class="inner">
-									<h2 class="major">Blog</h2>
-									<p>Coming soon</p>
+						<div class="tech-column">
+							<h3>Telemetry & Security Focus</h3>
+							<ul>
+							<li title="Designing scalable, tunable detection logic for modern attack surfaces.">Detection Engineering</li>
+							<li title="Working with raw telemetry pipelines to extract actionable signals.">Security Telemetry</li>
+							<li title="Tracking attacker behavior and surfacing insights from large datasets.">Threat Intel</li>
+							<li title="End-to-end workflow design to reduce manual overhead and improve signal-to-noise.">Automation</li>
+							</ul>
+						</div>
+
+						</div>
+					</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt spotlight style2">
+						<div class="inner">
+							<div class="content">
+								<h2 class="major">Projects</h2>
+								<div class="project-block">
+									<p>This section highlights what I've built, what I'm building, and where 
+										I'm headed next. I'm especially interested in projects that combine automation 
+										with real-world detection challenges.</p>
+
+									<p><strong>Now:</strong> Working on bot detection analysis tooling.<br>
+									<strong>Next:</strong> Exploring threat intel enrichment and attacker behavior mapping.</p>
 								</div>
-							</section>
+								<div class="project-block">
+									<h3>Chirpy</h3>
+									<p>A lightweight microblogging API built in Go, featuring secure user authentication with JWT and refresh tokens, modular route handling, and webhook integration. Designed to demonstrate clean backend architecture and stateful session control.</p>
+									<a href="https://github.com/DryHop2/chirpy" class="button">View on GitHub</a>
+								</div>
+								<div class="project-block">
+									<h3>Tubely</h3>
+									<p>A video storage and metadata processing backend built in Go. It handles large file uploads with multipart support, integrates with AWS S3 for cloud storage, and includes fast-start encoding logic for optimized playback. Designed for hands-on experience with file streaming, cloud APIs, and backend resource management.</p>
+									<a href="https://github.com/DryHop2/tubely" class="button">View on GitHub</a>
+								</div>
+								<div class="project-block">
+									<h3>Coming Soon!</h3>
+									<p>This is a temporary placeholder for upcoming projects I am migrating and publishing. These will include security tooling, detection logic, and analysis workflows.</p>
+									<a href="https://github.com/DryHop2/upcoming-projects" class="button">View on GitHub</a>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper alt style1">
+						<div class="inner">
+							<h2 class="major">Blog</h2>
+							<p>Coming soon</p>
+						</div>
+					</section>
 
 				<!-- Footer -->
 					<section id="footer">

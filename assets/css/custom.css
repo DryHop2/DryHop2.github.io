@@ -67,3 +67,34 @@ h3.minor {
   border-radius: 12px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  align-items: start;
+}
+
+.tech-column {
+  min-width: 200px;
+}
+
+.tech-column h3 {
+  font-size: 1.1em;
+  color: #fff;
+  margin: 0 0 0.5em 0;
+  padding: 0.25em 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  min-height: 3em;
+}
+
+.tech-column ul {
+  list-style-type: disc;
+  padding-left: 1.2em;
+  margin: 0;
+}
+
+.tech-column li {
+  margin: 0.3em 0;
+  cursor: help;
+}
