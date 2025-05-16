@@ -1,0 +1,4 @@
+*.go
+*.py
+node_modules
+dist

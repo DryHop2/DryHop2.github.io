@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Node (if you ever install frontend tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# SASS/SCSS artifacts (if used)
+*.css.map
+.sass-cache/
+
+# VS Code settings (optional, if personal)
+.vscode/
+
+# Output directories (if you build anything)
+dist/
+build/
+
+# System-specific
+Thumbs.db
+ehthumbs.db
