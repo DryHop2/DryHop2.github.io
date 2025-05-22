@@ -98,3 +98,14 @@ h3.minor {
   margin: 0.3em 0;
   cursor: help;
 }
+
+.profile-photo {
+  width: 25vw; /* Scales with viewport size */
+  max-width: 220px; /* Looks good on large screens */
+  min-width: 100px; /* Prevents shrinking too far */
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 2rem;
+}
