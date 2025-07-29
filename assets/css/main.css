@@ -2493,9 +2493,8 @@ input[type="radio"] + label:before {
   text-rendering: auto;
   line-height: 1;
   text-transform: none !important;
-  content: "\f120";
   font-family: "Font Awesome 5 Free";
-  font-weight: 900;
+  font-weight: 400;
 }
 
 .icon > .label {
@@ -3883,6 +3882,7 @@ body.is-preload #banner p {
   width: 22em;
   overflow: hidden;
   -ms-flex: 1;
+  flex: 1;
 }
 
 .wrapper.spotlight .image img {
@@ -3893,6 +3893,7 @@ body.is-preload #banner p {
 .wrapper.spotlight .content {
   width: 100%;
   -ms-flex: 2;
+  flex: 2;
 }
 
 .wrapper.spotlight:nth-child(2n - 1) .inner {
